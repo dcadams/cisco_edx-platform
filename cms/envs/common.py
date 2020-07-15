@@ -994,6 +994,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'djcelery',
     'method_override',
+    # IBL apps
+    'ibl_api_auth',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
