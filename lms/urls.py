@@ -1047,4 +1047,5 @@ urlpatterns += [
     url(r'', include('csrf.urls')),
 ]
 
+urlpatterns += (url(r'', include('openedx.cisco.lms.urls')),)
 urlpatterns.extend(plugin_urls.get_patterns(plugin_constants.ProjectType.LMS))

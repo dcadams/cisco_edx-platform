@@ -2017,6 +2017,7 @@ INSTALLED_APPS = [
     # IBL apps
     'axd_reporter',
     'ibl_api_auth',
+    'ibl_assessments_results',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
