@@ -10,4 +10,10 @@ urlpatterns = [
             namespace='ibl_assessments_results',
         )
     ),
+    url(
+        r'^api/ibl/',
+        include(
+            'ibl_catalog_dashboard_api.urls',
+        )
+    ),
 ]

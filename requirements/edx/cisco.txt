@@ -2,3 +2,4 @@
 -e git+https://github.com/dcadams/ibl-api-auth-devx.git
 -e git+https://github.com/dcadams/ibl-assessments-results-master.git
 -e git+https://github.com/dcadams/ibl-catalog-app-proxy-devx.git
+-e git+https://github.com/dcadams/ibl-catalog-dashboard-api-master
