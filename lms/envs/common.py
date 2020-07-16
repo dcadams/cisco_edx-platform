@@ -2018,6 +2018,7 @@ INSTALLED_APPS = [
     'axd_reporter',
     'ibl_api_auth',
     'ibl_assessments_results',
+    'ibl_catalog_app',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
@@ -3488,3 +3489,9 @@ USER_STATE_BATCH_SIZE = 5000
 from openedx.core.djangoapps.plugins import plugin_apps, plugin_settings, constants as plugin_constants
 INSTALLED_APPS.extend(plugin_apps.get_apps(plugin_constants.ProjectType.LMS))
 plugin_settings.add_plugins(__name__, plugin_constants.ProjectType.LMS, plugin_constants.SettingsType.COMMON)
+
+### IBL ###
+IBL_AUTO_CREATE_HONOR_MODE = True
+MANAGER_BASE_URL = ''
+MANAGER_DEFAULT_ORG = "main"
+MANAGER_MULTITENANCY_ENABLED = True
