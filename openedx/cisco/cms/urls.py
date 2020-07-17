@@ -15,9 +15,10 @@ urlpatterns = [
             namespace='ibl_course_import_from_template'
         )
     ),
+    url(
+        r'',
+        include(
+            'ibl_course_management_api.urls'
+        )
+    ),
 ]
-
-
-urlpatterns += (
-    url(r'^api/ibl/cisco/courses/', include('ibl_course_import_from_template.urls', namespace='ibl_course_import_from_template')),
-)

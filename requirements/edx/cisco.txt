@@ -5,3 +5,4 @@
 -e git+https://github.com/dcadams/ibl-catalog-dashboard-api-master.git
 -e git+https://github.com/dcadams/dcadams/ibl-catalog-metadata-devx.git
 -e git+https://github.com/dcadams/ibl-course-import-from-template-master.git
+-e git+https://github.com/dcadams/ibl-course-management-api-devx.git

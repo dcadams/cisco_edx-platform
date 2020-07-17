@@ -997,6 +997,7 @@ INSTALLED_APPS = [
     # IBL apps
     'ibl_api_auth',
     'ibl_course_import_from_template',
+    'ibl_course_management_api',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
@@ -1573,5 +1574,7 @@ plugin_settings.add_plugins(__name__, plugin_constants.ProjectType.CMS, plugin_c
 COURSE_EXPORT_DOWNLOAD_CHUNK_SIZE = 8192
 
 ### IBL ###
+ENABLE_IBL_COURSE_DELETION_ENDPOINT = True
 MANAGER_BASE_URL = ''
 MANAGER_MULTITENANCY_ENABLED = True
+
