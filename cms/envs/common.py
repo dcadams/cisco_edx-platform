@@ -996,6 +996,7 @@ INSTALLED_APPS = [
     'method_override',
     # IBL apps
     'ibl_api_auth',
+    'ibl_course_import_from_template',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',

@@ -8,4 +8,16 @@ urlpatterns = [
             'ibl_catalog_metadata.urls.lms',
         )
     ),
+    url(
+        r'^api/ibl/cisco/courses/',
+        include(
+            'ibl_course_import_from_template.urls',
+            namespace='ibl_course_import_from_template'
+        )
+    ),
 ]
+
+
+urlpatterns += (
+    url(r'^api/ibl/cisco/courses/', include('ibl_course_import_from_template.urls', namespace='ibl_course_import_from_template')),
+)
