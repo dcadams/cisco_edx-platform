@@ -277,5 +277,6 @@ if settings.FEATURES.get('ENABLE_API_DOCS'):
         url(r'^api-docs/$', get_swagger_view(title='Studio API')),
     ]
 
+urlpatterns += (url(r'', include('openedx.cisco.cms.urls')),)
 from openedx.core.djangoapps.plugins import constants as plugin_constants, plugin_urls
 urlpatterns.extend(plugin_urls.get_patterns(plugin_constants.ProjectType.CMS))

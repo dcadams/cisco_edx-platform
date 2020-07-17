@@ -16,4 +16,10 @@ urlpatterns = [
             'ibl_catalog_dashboard_api.urls',
         )
     ),
+    url(
+        r'^api/ibl/',
+        include(
+            'ibl_catalog_metadata.urls.lms',
+        )
+    ),
 ]

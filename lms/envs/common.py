@@ -2019,6 +2019,7 @@ INSTALLED_APPS = [
     'ibl_api_auth',
     'ibl_assessments_results',
     'ibl_catalog_app',
+    'ibl_catalog_metadata',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
