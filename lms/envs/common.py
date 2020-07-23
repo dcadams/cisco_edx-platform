@@ -2020,6 +2020,7 @@ INSTALLED_APPS = [
     'ibl_assessments_results',
     'ibl_catalog_app',
     'ibl_catalog_metadata',
+    'ibl_edx_sites_api',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
@@ -3493,6 +3494,8 @@ plugin_settings.add_plugins(__name__, plugin_constants.ProjectType.LMS, plugin_c
 
 ### IBL ###
 IBL_AUTO_CREATE_HONOR_MODE = True
+IBL_SITES_CHECK_MICROSITES = True
+IBL_SITES_ENABLE_CMS_SITES = True
 MANAGER_BASE_URL = ''
 MANAGER_DEFAULT_ORG = "main"
 MANAGER_MULTITENANCY_ENABLED = True

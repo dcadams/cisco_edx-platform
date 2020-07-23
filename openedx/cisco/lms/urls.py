@@ -22,4 +22,10 @@ urlpatterns = [
             'ibl_catalog_metadata.urls.lms',
         )
     ),
+    url(
+        r'',
+        include(
+            'ibl_edx_sites_api.urls',
+        )
+    )
 ]
