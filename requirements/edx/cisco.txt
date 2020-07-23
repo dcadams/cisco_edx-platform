@@ -7,3 +7,4 @@
 -e git+https://github.com/dcadams/ibl-course-import-from-template-master.git
 -e git+https://github.com/dcadams/ibl-course-management-api-devx.git
 -e git+https://github.com/dcadams/ibl-edx-sites-api-devx.git
+-e git+https://github.com/dcadams/ibl-enrollment-api-master.git

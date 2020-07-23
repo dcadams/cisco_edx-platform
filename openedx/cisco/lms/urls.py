@@ -27,5 +27,11 @@ urlpatterns = [
         include(
             'ibl_edx_sites_api.urls',
         )
-    )
+    ),
+    url(
+        r'',
+        include(
+            'ibl_enrollment_api.urls',
+        )
+    ),
 ]
