@@ -40,4 +40,10 @@ urlpatterns = [
             'ibl_request_router.urls.lms_urls',
         )
     ),
+    url(
+        r'',
+        include(
+            'ibl_user_management_api.urls',
+        )
+    ),
 ]
