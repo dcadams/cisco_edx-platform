@@ -999,6 +999,7 @@ INSTALLED_APPS = [
     'ibl_course_import_from_template',
     'ibl_course_management_api',
     'ibl_request_router',
+    'ibl_studio_org_filter',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
