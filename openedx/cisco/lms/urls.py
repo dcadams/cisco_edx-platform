@@ -34,4 +34,10 @@ urlpatterns = [
             'ibl_enrollment_api.urls',
         )
     ),
+    url(
+        r'',
+        include(
+            'ibl_request_router.urls.lms_urls',
+        )
+    ),
 ]

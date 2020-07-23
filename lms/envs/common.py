@@ -2022,6 +2022,7 @@ INSTALLED_APPS = [
     'ibl_catalog_metadata',
     'ibl_edx_sites_api',
     'ibl_enrollment_api',
+    'ibl_request_router',
 
     # Common Initialization
     'openedx.core.djangoapps.common_initialization.apps.CommonInitializationConfig',
